@@ -12,7 +12,7 @@ Jeweler::Tasks.new do |gem|
 	gem.description = %Q{Dojo Toolkit integration for Mojito.}
 	gem.email = "dev@trense.info"
 	gem.authors = ["Max Trense"]
-	gem.files = FileList[%W{dojo/**/* lib/**/*.rb spec/**/*_spec.rb README.* LICENSE.* }]
+	gem.files = FileList[%W{dojo/**/* lib/**/*.rb spec/**/*_spec.rb README.* LICENSE.*}]
 	gem.add_dependency 'mojito', '~> 0.3'
 	gem.add_development_dependency "rspec", "~> 2.8.0"
 	gem.add_development_dependency "rdoc", "~> 3.12"
